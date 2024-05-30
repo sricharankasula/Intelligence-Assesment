@@ -1,0 +1,38 @@
+.result-table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 99.7%;
+}
+
+.result-table table {
+  flex: 1;
+  margin: 0 100px 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #6770f3;
+}
+
+
+thead.Easy{
+  background-color: rgb(86, 246, 86);
+}
+thead.Medium{
+  background-color: rgb(246, 182, 86);
+}
+thead.Hard{
+  background-color: rgb(248, 67, 67);
+}
+tr.Heading{
+  font-weight: bold;
+  background-color: rgb(244, 180, 62);
+  width:98%,
+}

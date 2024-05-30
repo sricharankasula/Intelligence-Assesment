@@ -1,0 +1,92 @@
+
+header {
+  background-color: rgb(243, 160, 6); 
+    color: hsl(0, 0%, 0%);
+    text-align: right;
+    height: 5%;
+    /* border-radius: 1%; */
+    width:99.65%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  .alert {
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #d4edda;
+    color: #155724;
+    width: 30%;
+    position:absolute;
+    left:35%;
+  }
+  
+  .alert p {
+    margin: 0;
+  }
+  
+  /* .close-btn {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    background: #8d8f8d;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #000;
+  } */
+  
+
+  .nav-button1 {
+    position: absolute;
+    left:17%;
+    display: inline-block;
+    padding: 1px 2px;
+    margin: 0 5px;
+    color: #000000;
+    border-radius: 1px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: medium;
+  }
+  .nav-button2 {
+    position: absolute;
+    left:22%;
+    display: inline-block;
+    padding: 1px 2px;
+    margin: 0 5px;
+    color: #000000;
+    border-radius: 1px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: medium;
+  }
+  .nav-button3 {
+    position: absolute;
+    right: 3%;
+    display: inline-block;
+    padding: 1px 2px;
+    margin: 0 5px;
+    color: #000000;
+    border-radius: 1px;
+    text-decoration: black;
+    transition: background-color 0.3s ease;
+    font-size: large;
+  }
+  .nav-button4 {
+    position: absolute;
+    left:27%;
+    display: inline-block;
+    padding: 1px 2px;
+    margin: 0 5px;
+    color: #fff;
+    border-radius: 1px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: small;
+  }
